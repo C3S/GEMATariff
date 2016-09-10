@@ -1,0 +1,14 @@
+bibentry("Manual",
+    title="GEMATariff: Calculate GEMA tariffs",
+    author="m.eik michalke",
+    year="2016",
+    note="(Version 0.01-0)",
+    url="https://www.c3s.cc",
+
+    textVersion =
+    paste("michalke, m. (2016). ",
+        "GEMATariff: Calculate GEMA tariffs (Version 0.01-0). ",
+        "Available from https://www.c3s.cc",
+        sep=""),
+
+    mheader = "To cite GEMATariff in publications use:")

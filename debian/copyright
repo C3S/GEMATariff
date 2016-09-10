@@ -1,0 +1,30 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: GEMATariff
+Upstream-Contact: m.eik michalke <meik.michalke@c3s.cc>
+Comment:
+  The R library GEMATariff was originally written and is maintained by m.eik michalke <meik.michalke@c3s.cc>.
+  .
+  This Debian package was put together by m.eik michalke <meik.michalke@c3s.cc>,
+  using the GNU R package roxyPackage.
+  .
+  The package was renamed from its upstream name 'GEMATariff' to
+  'r-other-c3s-gematariff' in harmony with the R packaging policy to indicate
+  that the package is external to the CRAN or BioC repositories.
+  .
+  The copyright information given here was offered by the GNU R package
+  DESCRIPTION. The DESCRIPTION file for the original GNU R package can be
+  found in /usr/lib/R/site-library/GEMATariff/DESCRIPTION.
+
+Files: *
+Copyright: 2016 m.eik michalke
+License: AGPL (>= 3)
+  GEMATariff Copyright (C) 2016 m.eik michalke, released under the
+  GNU Affero General Public License version 3 or (at your option) any later version.
+  .
+  This software is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+  or FITNESS FOR A PARTICULAR PURPOSE.
+  .
+  You should have received a copy of the license with your Debian system,
+  in the file /usr/share/common-licenses/AGPL-3, or with the
+  source package as the file COPYING or LICENSE.
