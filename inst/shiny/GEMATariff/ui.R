@@ -147,7 +147,7 @@ shinyUI(
               "GEMATariff is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the ", a("GNU Affero General Public License", href="https://www.gnu.org/licenses/licenses.html#AGPL", target="_blank"), " for more details."
             ),
             p(
-              a("Get the source code.", href="https://", target="_blank", style="font-weight:bold;")
+              a("Get the source code.", href="https://github.com/C3S/GEMATariff", target="_blank", style="font-weight:bold;")
             ),
             h4("Acknowledgments"), 
             p("We would like to thank the GEMA staff for kindly testing our calculator and giving valuable feedback.")

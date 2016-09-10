@@ -11,7 +11,7 @@ you read this, some of these changes might not have been implemented yet. If you
 reliable feed back on these tariffs, you should try the official GEMA online calculator
 (https://online.gema.de/aidaos/) instead.
 
-More information on GEMATariff is available on the [project homepage](https://www.c3s.cc).
+Check out the [live demo of GEMATariff](https://calc.c3s.cc/GEMATariff/).
 
 ## Installation
 
