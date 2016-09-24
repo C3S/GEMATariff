@@ -7,25 +7,22 @@ Depends:
     R (>= 2.9.0),methods
 Suggests:
     testthat,shiny
-Description: This R package was developed to get a better understanding
-    of the tariff system of the German collective rights society
-    GEMA. It is intended to be useful as a research tool, and not
-    for any practical application beyond that. Some of the tariffs
-    are quite complex. Allthough we implemented everything to the
-    best of our abilities, we do not warranty the correctness of
-    these calculations. Also, the tariffs are constantly subject to
-    change, and while you read this, some of these changes might
-    not have been implemented yet. If you need reliable feed back
-    on these tariffs, you should try the official GEMA online
-    calculator (https://online.gema.de/aidaos/) instead.
+Description: This R package was developed to get a better understanding of
+    the tariff system of the German collective rights society GEMA. It is intended
+    to be useful as a research tool, and not for any practical application beyond
+    that. Some of the tariffs are quite complex. Allthough we implemented everything
+    to the best of our abilities, we do not warranty the correctness of these
+    calculations. Also, the tariffs are constantly subject to change, and while
+    you read this, some of these changes might not have been implemented yet. If
+    you need reliable feed back on these tariffs, you should try the official GEMA
+    online calculator (https://online.gema.de/aidaos/) instead.
 License: AGPL (>= 3)
 Encoding: UTF-8
 LazyLoad: yes
 URL: https://www.c3s.cc
-Authors@R: c(person(given="m.eik", family="michalke",
-        email="meik.michalke@c3s.cc", role=c("aut", "cre", "cph")))
+Authors@R: c(person(given="m.eik", family="michalke", email="meik.michalke@c3s.cc", role=c("aut", "cre", "cph")))
 Version: 0.01-0
-Date: 2016-09-10
+Date: 2016-09-24
 RoxygenNote: 5.0.1
 Collate:
     '01_class_01_GEMA.dancefloor.R'

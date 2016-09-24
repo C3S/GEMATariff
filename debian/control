@@ -10,16 +10,11 @@ Package: r-other-c3s-gematariff
 Architecture: all
 Section: gnu-r
 Depends: r-base-core (>= 3.3.0)
-Description: GNU R package: This R package was developed to get a
- better understanding of the tariff system of the German collective
- rights society GEMA. It is intended to be useful as a research tool,
- and not for any practical application beyond that. Some of the tariffs
- are quite complex. Allthough we implemented everything to the best of
- our abilities, we do not warranty the correctness of these
- calculations. Also, the tariffs are constantly subject to change, and
- while you read this, some of these changes might not have been
- implemented yet. If you need reliable feed back on these tariffs, you
- should try the official GEMA online calculator
+Description: GNU R package: This R package was developed to get a better understanding of the tariff system of the German collective
+ rights society GEMA. It is intended to be useful as a research tool, and not for any practical application beyond that. Some of the
+ tariffs are quite complex. Allthough we implemented everything to the best of our abilities, we do not warranty the correctness of
+ these calculations. Also, the tariffs are constantly subject to change, and while you read this, some of these changes might not have
+ been implemented yet. If you need reliable feed back on these tariffs, you should try the official GEMA online calculator
  (https://online.gema.de/aidaos/) instead.
 Homepage: https://www.c3s.cc
 Suggests: r-cran-testthat, r-cran-shiny

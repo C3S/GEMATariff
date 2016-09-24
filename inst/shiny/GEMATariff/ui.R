@@ -156,6 +156,16 @@ shinyUI(
         ),
         div("GEMATariff ©2016 ", a(href="https://www.c3s.cc", target="_blank", "C3S"), style="text-align:center;font-size:70%;padding-top:15px;padding-bottom:15px;")
       )
+    ),
+    # C3S logo
+    div(
+      style="position: absolute; right: 20px; top: 20px;",
+      a(
+        img(src="logo_200x40.png", alt="C3S Logo"),
+        href="https://www.c3s.cc",
+        target="_blank",
+        title="C3S Homepage"
+      )
     )
   )
 )
