@@ -76,12 +76,12 @@ shinyServer(function(input, output){
       }
     }
     return(tableTariff)
-  }, rownames=TRUE)
+  }, striped=TRUE, rownames=TRUE)
   
   output$tableReduction <- renderTable({
     reduction <- slot(invoice.results(), "reduction")
     return(t(as.matrix(reduction)))
-  }, rownames=TRUE)
+  }, striped=TRUE, rownames=TRUE)
   
   output$tableInvoice <- renderTable({
     tableInvoice <- slot(invoice.results(), "invoice")
@@ -94,7 +94,7 @@ shinyServer(function(input, output){
       rownames(tableInvoice) <- c("GEMA", "GVL", "Netto", "USt", "Brutto")
     } else {}
     return(tableInvoice)
-  }, rownames=TRUE)
+  }, striped=TRUE, rownames=TRUE)
   
   output$tariffPlot <- renderPlot({
     if(input$tariffID %in% c('dancefloor','gig')){
