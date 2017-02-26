@@ -21,8 +21,8 @@ To install the package directly from GitHub, you can use `install_github()` from
 
 ```
 library(devtools)
-install_github("unDocUMeantIt/GEMATariff") # stable release
-install_github("unDocUMeantIt/GEMATariff", ref="develop") # development release
+install_github("C3S/GEMATariff") # stable release
+install_github("C3S/GEMATariff", ref="develop") # development release
 ```
 
 ## Contributing
