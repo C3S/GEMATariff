@@ -21,12 +21,23 @@ To install the package directly from GitHub, you can use `install_github()` from
 
 ```
 library(devtools)
-install_github("unDocUMeantIt/GEMATariff")
+install_github("unDocUMeantIt/GEMATariff") # stable release
+install_github("unDocUMeantIt/GEMATariff", ref="develop") # development release
 ```
+
+## Contributing
+
+To ask for help, report bugs, suggest feature improvements, or discuss the global
+development of the package, please use the issue tracker on GitHub.
+
+### Branches
+
+Please note that all development happens in the `develop` branch. Pull requests against the `master`
+branch will be rejected, as it is reserved for the current stable release.
 
 ## License
 
-GEMATariff Copyright (C) 2016 m.eik michalke, released under the
+GEMATariff Copyright (C) 2016-2017 m.eik michalke, released under the
 GNU Affero General Public License version 3 or (at your option) any later version.
 
 This software is distributed in the hope that it will be useful, but
