@@ -1,4 +1,4 @@
-# Copyright 2016 Meik Michalke <meik.michalke@c3s.cc>
+# Copyright 2016-2017 Meik Michalke <meik.michalke@c3s.cc>
 #
 # This file is part of the R package GEMATariff.
 #
@@ -102,6 +102,7 @@ setMethod("GEMA_u_k",
     }
     
     # entry reductions
+    # these might be replaced effectively by smaller rates if promoYoung is TRUE
     if(year > 2015){
       if(guests > 2000){
         entryRedPercent <- reduction_entry(year=year, tariff="u_k_gt2000")
@@ -164,9 +165,18 @@ setMethod("GEMA_u_k",
     basePrice <- max(baseSum * basePercent, minPrice)
 
     # check reductions
-    discountPromoYoung <- globalDiscount(net=basePrice, discount=reduction_entry(year, "u_k_promoYoung"), factor=promoYoung)
-    result.factors["promoYoung"] <- discountPromoYoung[["factor"]]
-    result.reduction["promoYoung"] <- discountPromoYoung[["discount"]]
+    if(isTRUE(promoYoung)){
+      # reduction is relative to baseSum directly, not basePrice
+      basePricePromoYoung <- max(
+        baseSum * result.factors["addIncome"] * reduction_entry(year, "u_k_promoYoung"),
+        minPrice
+      )
+      result.factors["promoYoung"] <- 1 - (basePricePromoYoung / basePrice)
+      result.reduction["promoYoung"] <- basePricePromoYoung - basePrice
+    } else {
+      result.factors["promoYoung"] <- 1
+      result.reduction["promoYoung"] <- 0
+    }
 
     discountCharity <- globalDiscount(net=basePrice, discount=.9, factor=charity)
     result.factors["charity"] <- discountCharity[["factor"]]

@@ -58,8 +58,8 @@ and \code{production} become relevant, and \code{admission} must be 0.}
       whether in addition to the live music there is also music from
 physical recording media (e.g., CDs) being played.}
 }}
+
 \examples{
 myGig <- gig()
 }
 \keyword{classes}
-

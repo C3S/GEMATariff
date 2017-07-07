@@ -33,10 +33,6 @@
 #' MTLD(tagged.txt)
 #' }
 #' @include 01_class_01_GEMA.dancefloor.R
-setGeneric("show")
-
-#' @export
-#' @rdname show-methods
 #' @aliases show,GEMA.dancefloor-method
 setMethod(
   "show",

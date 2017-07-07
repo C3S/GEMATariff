@@ -3,8 +3,8 @@
 #' \tabular{ll}{
 #' Package: \tab GEMATariff\cr
 #' Type: \tab Package\cr
-#' Version: \tab 0.01-0\cr
-#' Date: \tab 2016-09-24\cr
+#' Version: \tab 0.01-1\cr
+#' Date: \tab 2017-07-07\cr
 #' Depends: \tab R (>= 2.9.0),methods\cr
 #' Encoding: \tab UTF-8\cr
 #' License: \tab AGPL (>= 3)\cr

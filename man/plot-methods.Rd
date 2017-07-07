@@ -2,8 +2,8 @@
 % Please edit documentation in R/02_method_04_plot.R
 \docType{methods}
 \name{plot,GEMA.dancefloor,missing-method}
-\alias{plot,-methods}
 \alias{plot,GEMA.dancefloor,missing-method}
+\alias{plot,-methods}
 \alias{plot,GEMA.dancefloor-method}
 \alias{plot,GEMA.gig,missing-method}
 \alias{plot,GEMA.gig-method}
@@ -40,4 +40,3 @@ plots the development of the new club tariff from 2014 to 2022.
 }
 \keyword{methods}
 \keyword{plot}
-

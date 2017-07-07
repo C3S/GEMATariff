@@ -50,5 +50,5 @@ This class is used for objects that are returned by methods like \code{\link[GEM
    \item{gross}{The gross sum.}
  }}
 }}
-\keyword{classes}
 
+\keyword{classes}

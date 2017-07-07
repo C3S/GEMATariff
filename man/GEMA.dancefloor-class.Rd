@@ -23,8 +23,8 @@ Use function \code{\link[GEMATariff:dancefloor]{dancefloor}} to create objects o
       highest ticket price for the dancefloor. If prices vary over the week,
 use the average of highest prices, respectively.}
 }}
+
 \examples{
 myDancefloor <- dancefloor(space=200, days=3, admission=6)
 }
 \keyword{classes}
-

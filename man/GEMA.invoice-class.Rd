@@ -39,5 +39,5 @@ This class is inherited by other invoice classes and not standalone.
    \item{gross}{The gross sum.}
  }}
 }}
-\keyword{classes}
 
+\keyword{classes}

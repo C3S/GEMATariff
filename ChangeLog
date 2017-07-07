@@ -1,6 +1,14 @@
 ChangeLog for package GEMATariff
 
-changes in version 0.01-0 (2016-09-24)
+changes in version 0.01-1 (2017-07-07)
 unreleased:
   - this release is under development
+fixed:
+  - GEMA_u_k(): promoYoung discount was incorrectly calculated
+  - show(): removed definition of standard generic
+  - ChangeLog was missing note on initial release for 0.01-1
+
+changes in version 0.01-0 (2016-09-24)
+changed:
+  - initial release
 

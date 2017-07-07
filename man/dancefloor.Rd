@@ -23,4 +23,3 @@ Define a dancefloor
 \examples{
 myDancefloor <- dancefloor(space=200, days=3, admission=6)
 }
-

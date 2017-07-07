@@ -58,4 +58,3 @@ the product of ticket price and number of guests will be used as an estimate.
 \examples{
 myGig <- gig(guests=100, admission=5)
 }
-

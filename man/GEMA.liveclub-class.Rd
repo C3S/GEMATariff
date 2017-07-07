@@ -27,8 +27,8 @@ use the average of highest prices, respectively.}
       whether in addition to the live music there is also music from
 physical recording media (e.g., CDs) being played.}
 }}
+
 \examples{
 myLiveClub <- liveclub(space=200, days=3, admission=6)
 }
 \keyword{classes}
-

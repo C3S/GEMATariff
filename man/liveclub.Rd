@@ -27,4 +27,3 @@ Define a live club
 \examples{
 myLiveClub <- liveclub(space=200, days=20, admission=6, plusMedium=TRUE)
 }
-
